@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Achievements" representedClassName="Achievements" syncable="YES">
+        <attribute name="cat0" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat7" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat8" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cat9" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="co1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="co2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="co3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="co4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="co5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l7" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l8" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l9" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l10" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l11" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l12" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l13" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l14" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l15" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l16" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l17" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l18" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l19" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l20" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="l21" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="achievements" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="achievements" inverseEntity="Users" syncable="YES"/>
+    </entity>
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="categoryCompleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="categoryHighScore" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="categoryStars" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="completedLevels" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unlockedLevels" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="categories" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="categories" inverseEntity="Users" syncable="YES"/>
+        <relationship name="rounds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Round" inverseName="rounds" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="MetaData" representedClassName="MetaData" syncable="YES">
+        <attribute name="totalQuestionCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Questions" representedClassName="Questions" syncable="YES">
+        <attribute name="answer0" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bcv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="book" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="difficulty" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="qid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="verse" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Round" representedClassName="Round" syncable="YES">
+        <attribute name="bestTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="highscore" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stars" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="unlocked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="rounds" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="rounds" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES">
+        <attribute name="correctAnswers" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="multiplayerLoses" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="multiplayerWins" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wrongAnswers" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="xp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="achievements" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Achievements" inverseName="achievements" inverseEntity="Achievements" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Category" inverseName="categories" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <configuration name="QuestionData">
+        <memberEntity name="Questions"/>
+        <memberEntity name="MetaData"/>
+    </configuration>
+    <configuration name="UserData">
+        <memberEntity name="Users"/>
+        <memberEntity name="Round"/>
+        <memberEntity name="Category"/>
+        <memberEntity name="Achievements"/>
+    </configuration>
+    <elements>
+        <element name="Category" positionX="-99" positionY="-594" width="128" height="180"/>
+        <element name="MetaData" positionX="-542" positionY="-582" width="128" height="60"/>
+        <element name="Questions" positionX="-540" positionY="-498" width="128" height="255"/>
+        <element name="Round" positionX="133" positionY="-573" width="128" height="150"/>
+        <element name="Users" positionX="-324" positionY="-612" width="128" height="208"/>
+        <element name="Achievements" positionX="-324" positionY="-336" width="128" height="598"/>
+    </elements>
+</model>
