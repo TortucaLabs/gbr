@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ACGraphics.h"
 #import "ACCDMgr.h"
-#import "ACQuizGameOverController.h"
+//#import "ACQuizGameOverController.h"
 
-@interface ACMarathonController : UIViewController <GameOverProtocol>
+@interface ACMarathonController : UIViewController //<GameOverProtocol>
 @property (nonatomic) double startingHighestScoreInt;
 @end

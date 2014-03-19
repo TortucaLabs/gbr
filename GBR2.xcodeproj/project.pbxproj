@@ -125,7 +125,6 @@
 		E09681CB16B4943500973C03 /* GBRLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E09681C716B4943500973C03 /* GBRLogo.png */; };
 		E09681CC16B4943500973C03 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E09681C816B4943500973C03 /* images.bundle */; };
 		E09681CE16B498FC00973C03 /* ACQuizController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7DDED16A671F500CC4040 /* ACQuizController2.m */; };
-		E09681D716B6243A00973C03 /* ACFireFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09681D616B6243A00973C03 /* ACFireFlyView.m */; };
 		E096838F16B64DDE00973C03 /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = E096838E16B64DDE00973C03 /* particle.png */; };
 		E09684DC16B657A000973C03 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09684DB16B657A000973C03 /* OpenGLES.framework */; };
 		E098371216BB361D00971273 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E098371116BB361D00971273 /* StoreKit.framework */; };
@@ -323,8 +322,6 @@
 		E09681C616B4943500973C03 /* GBRlogoMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GBRlogoMM.png; sourceTree = "<group>"; };
 		E09681C716B4943500973C03 /* GBRLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GBRLogo.png; sourceTree = "<group>"; };
 		E09681C816B4943500973C03 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
-		E09681D516B6243A00973C03 /* ACFireFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFireFlyView.h; sourceTree = "<group>"; };
-		E09681D616B6243A00973C03 /* ACFireFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFireFlyView.m; sourceTree = "<group>"; };
 		E096838E16B64DDE00973C03 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
 		E09684DB16B657A000973C03 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E098371116BB361D00971273 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -671,8 +668,6 @@
 			isa = PBXGroup;
 			children = (
 				E096838E16B64DDE00973C03 /* particle.png */,
-				E09681D516B6243A00973C03 /* ACFireFlyView.h */,
-				E09681D616B6243A00973C03 /* ACFireFlyView.m */,
 				E074299516A8EE6300081158 /* ACMultiplayerQuizServer.h */,
 				E074299616A8EE6300081158 /* ACMultiplayerQuizServer.m */,
 				E074299916A8EE7900081158 /* ACMultiplayerQuizClient.h */,
@@ -955,7 +950,6 @@
 				E05192B716AE0B140030889B /* ACDataPacket.m in Sources */,
 				E05192BB16B1EC370030889B /* parseCSV.m in Sources */,
 				E09681C416B4785400973C03 /* MBProgressHUD.m in Sources */,
-				E09681D716B6243A00973C03 /* ACFireFlyView.m in Sources */,
 				E0012BA816B9E79500B69781 /* ACKenBurnsView.m in Sources */,
 				E098371516BB373400971273 /* ACStoreManager.m in Sources */,
 				E098371916BB50ED00971273 /* ACFlowLayout.m in Sources */,

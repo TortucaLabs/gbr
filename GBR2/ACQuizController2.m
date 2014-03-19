@@ -8,9 +8,9 @@
 
 #import "ACQuizController2.h"
 #import "ACAudioPlayer.h"
-#import "ACFireFlyView.h"
-#import "ACCocos2D.h"
-#import "ACBackgroundView.h"
+//#import "ACFireFlyView.h"
+//#import "ACCocos2D.h"
+//#import "ACBackgroundView.h"
 #import "ACGameDataTracker.h"
 #import "ACSpriteSheet.h"
 //#import "ACFireWorksView.h"
@@ -83,7 +83,7 @@
 @property (nonatomic) CFTimeInterval scoreStartTime;
 @property (nonatomic, strong) NSArray *randomizedQuizQuestions;
 @property (nonatomic, strong) NSMutableArray *retrievableQuestionIDs;
-@property (nonatomic, strong) ACBackgroundView *backgroundView;
+//@property (nonatomic, strong) ACBackgroundView *backgroundView;
 
 //Runner
 @property (nonatomic, strong) UIImageView *runnerView;
