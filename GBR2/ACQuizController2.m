@@ -385,6 +385,7 @@
                                             self.answerButton3.frame.size.width,
                                             self.answerButton3.frame.size.height)];
 }
+// andrew is gay
 
 - (void)setupRunner
 {
