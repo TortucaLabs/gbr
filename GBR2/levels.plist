@@ -3,20 +3,20 @@
 <plist version="1.0">
 <array>
 	<integer>0</integer>
-	<integer>2828</integer>
-	<integer>5196</integer>
-	<integer>8000</integer>
-	<integer>11180</integer>
-	<integer>14697</integer>
-	<integer>18520</integer>
-	<integer>22627</integer>
-	<integer>27000</integer>
-	<integer>31623</integer>
-	<integer>36483</integer>
-	<integer>41569</integer>
-	<integer>46872</integer>
-	<integer>52383</integer>
-	<integer>58095</integer>
+	<integer>160</integer>
+	<integer>380</integer>
+	<integer>680</integer>
+	<integer>1280</integer>
+	<integer>2560</integer>
+	<integer>5120</integer>
+	<integer>10000</integer>
+	<integer>16000</integer>
+	<integer>24000</integer>
+	<integer>30000</integer>
+	<integer>36000</integer>
+	<integer>44000</integer>
+	<integer>50000</integer>
+	<real>58095</real>
 	<integer>64000</integer>
 	<integer>70093</integer>
 	<integer>76368</integer>
